@@ -2,9 +2,17 @@ body {
     max-width: 1920px;
     width: 100%;
     background-color: #24282C;
+    margin: auto;
+    padding: 50px 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
 }
 
 a {
     text-decoration: none;
     color: white;
+}
+
+.project-link {
+    font-size: 18px;
 }
