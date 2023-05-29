@@ -6,7 +6,7 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
-.top-header {
+header {
 	background-color: white;
 	position: sticky;
 	top:0;
@@ -44,6 +44,7 @@ main h2 {
 
 .instagram-logo img {
 	width: 20px;
+	height: 20px;
 }
 
 #about {
@@ -329,10 +330,13 @@ input[type="submit"] {
 		right: 0;
 		z-index: -1;
 	}
+	header {
+		padding-left: 30px 5% 30px 5%;
+	}
 }
 
 @media all and (max-width: 650px) {
-	.top-header {
+	header {
 		flex-direction: column;
 		padding-inline: 0;
 	}
@@ -340,7 +344,7 @@ input[type="submit"] {
 		width: 100%;
 		padding: 0 0 0 0;
 	}
-	.top-header .navbar li {
+	header .navbar li {
 		flex: 1;
 		padding-block: 1em;
 		text-align: center;
