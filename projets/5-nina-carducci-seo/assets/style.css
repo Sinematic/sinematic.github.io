@@ -47,6 +47,10 @@ main h2 {
 	height: 20px;
 }
 
+#carousel h2 {
+	display: none;
+}
+
 #about {
 	display: flex;
 	background-color: #F6D2B8;
