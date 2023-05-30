@@ -78,7 +78,7 @@ main h2 {
 }
 
 .carousel-item img {
-	width: 100%;
+	width: 100vw;
 	aspect-ratio: 1920 / 888;
 }
 
@@ -345,7 +345,7 @@ input[type="submit"] {
 		z-index: -1;
 	}
 	header {
-		padding-left: 30px 5% 30px 5%;
+		padding: 30px 5% 30px 5%;
 	}
 }
 
