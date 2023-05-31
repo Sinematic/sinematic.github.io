@@ -25,7 +25,6 @@ Il est possible de faire plusieurs modifications qui aideront le site autant sur
 
 Il existe des modifications à effectuer également concernant le CSS :
 
-- Utiliser des noms de classes et d'identifiants plus clairs (`visually-hidden`)
 - Minifier le fichier CSS
 ✅ Utiliser un fichier Bootstrap minifié
 ✅ Ne pas dépasser 75 caractères par ligne dans certains paragraphes (About-me notamment)
