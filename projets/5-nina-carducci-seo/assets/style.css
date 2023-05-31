@@ -141,10 +141,10 @@ img {
 	padding: .5em;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+.nav-pills > .nav-item > .nav-link.active-tag {
+	color: white;
 	background-color: #615abe;
-	border-radius:0 ;
+	border-radius: 3px;
 }
 .nav-pills .nav-link {
 	color: #000
