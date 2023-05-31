@@ -36,6 +36,7 @@ Il existe des modifications à effectuer également concernant le CSS :
 ### Le JavaScript
 
 - Corriger le bug dans la modale
+- Corriger bug actif du span
 
 
 ## Performances 
@@ -44,9 +45,9 @@ Il existe des modifications à effectuer également concernant le CSS :
 ✅ Utiliser un format plus adapté afin de garantir des temps de chargement plus courts
 - Supprimer le code CSS inutilisé
 - Supprimer le code JavaScript inutilisé
-- Définir explicitement une largeur et une hauteur aux images
+❌- Définir explicitement une largeur et une hauteur aux images
 - Réduire l'impact des services tiers
-- Utiliser l'attribut `defer` pour les fichiers JavaScript non-prioritaires qui bloquent le chargement du Paint
+✅ Utiliser l'attribut `defer` pour les fichiers JavaScript non-prioritaires qui bloquent le chargement du Paint
 
 ## Référencement & Bonnes pratiques
 
@@ -66,10 +67,12 @@ Il y a encore beaucoup de choses à faire afin de rendre l'ensemble plus appropr
 ✅ Utiliser des termes compréhensibles dans les liens
 
 À vérifier : 
-- Adopter un ordre logique de tab
+// - Adopter un ordre logique de tab
 - Pouvoir utiliser le clavier pour les éléments interactifs
 - Les éléments interactifs indiquent leur fonction
 - Le focus de l'utilisateur est renvoyé directement vers le nouveau contenu ajouté à la page
 - Le focus ne peut se retrouver bloqué dans une section de la page
 ✅ Proprement cacher des technologies d'assistance les éléments en dehors du flux
 - Les éléments de contrôle interactifs ont des rôles ARIA
+
+- transformer span en button ou autre pour corriger le problème de tab vers les filtres (focus)
