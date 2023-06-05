@@ -351,6 +351,11 @@ input[type="submit"] {
 		text-align: center;
 		margin-top: 1em;
 	}
+
+	.about-me__introduction, #about-me p {
+		margin: auto;
+	}
+
 	#services .container {
 		flex-direction: column;
 	}
