@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Pokédex</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="images/favicon.ico" /><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/56f1d6909e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="container">
+
+        <header>
+
+            <div id="navbar">
+                <nav>
+                    <h2 id="subtitle">Custom Pokédex by Sinematic</h2>
+                    <ul>
+                        <li><a href="https://pokebuildapi.fr/api/v1"><img src="images/favicon.ico" alt="Pokémon Logo" class="nav-logo"></a></li>
+                        <li><a href="https://github.com/Sinematic/Custom-Pokedex"><img src="images/logos/github.png" alt="GitHub Logo" class="nav-logo"></a></li>
+                        <li><a href="https://twitter.com/SineDev"><img src="images/logos/twitter-icon.svg" alt="Twitter Logo" class="nav-logo"></a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <div id="header">
+                <img id="logo" src="images/logos/logo.svg" alt="Logo Pokémon">
+                <h1 id="title">Pokémon: Gotta Catch ’ Em All !</h1>
+            </div>
+
+        </header>
+
+
+        <main>
+
+            <section id="filters">
+
+                <select name="gen" id="gen">
+                    <option id="0">Afficher toutes les générations</option>
+                    <option id="gen-1" value="1">Afficher la première génération</option>
+                    <option id="gen-2" value="2">Afficher la deuxième génération</option>
+                    <option id="gen-3" value="3">Afficher la troisième génération</option>
+                    <option id="gen-4" value="4">Afficher la quatrième génération</option>
+                    <option id="gen-5" value="5">Afficher la cinquième génération</option>
+                    <option id="gen-6" value="6">Afficher la sixième génération</option>
+                    <option id="gen-7" value="7">Afficher la septième génération</option>
+                    <option id="gen-8" value="8">Afficher la huitième génération</option>
+                </select>
+                
+                <button id="btn-stats-displayed">Cacher les statistiques</button>
+                <button id="btn-stats-hidden">Afficher les statistiques</button>
+                <button id="btn-legendaries">Afficher les pokémons légendaires</button>
+
+                <input name="search" type="search" id="search" placeholder="Rechercher un pokémon">
+                <button type="submit" id="submit">
+                    <i id="glass" class="fa-solid fa-magnifying-glass"></i>
+                </button>
+
+                <button id="random">Générer une équipe aléatoire</button>    
+                <button id="reset">Réinitialiser les filtres</button>
+
+            </section>
+
+            <section id="pokedex">
+            </section>
+
+        </main>
+
+        <script src="script.js"></script>
+    </div>
+    
+</body>
+</html>
