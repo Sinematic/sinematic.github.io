@@ -41,6 +41,7 @@ function generatePokedex(pokemon) {
 
     const image = document.createElement("img");
     image.src = pokemon.image;
+    image.setAttribute("alt", pokemon.name)
     image.classList.add("pokemon-img");
     card.appendChild(image);
 
