@@ -21,13 +21,15 @@ a {
 }
 
 .project__article {
-    display: flex;
-    justify-content: center;
+    margin: 0 auto;
+    background-color: #5651a4;
+    width: fit-content;
+    padding: 15px 21px;
+    border: 2px solid white;
+    border-radius: 5px;
+
 }
 
 .project__link {
     font-size: 18px;
-    padding: 5px 9px;
-    border: 1px solid white;
-    border-radius: 5px;
 }
