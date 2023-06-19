@@ -33,3 +33,12 @@ a {
 .project__link {
     font-size: 18px;
 }
+
+article {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.special__message {
+    text-decoration: underline;
+}

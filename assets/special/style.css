@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    width: 100%;
+    background-color: #5651a4;
+    color: #FAFAFA;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+#container__wip {
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 90px 50px;
+}
+
+.h1__wip {
+    margin: 0 auto;
+    font-size: 48px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    width: fit-content;
+    border-bottom: 5px solid #FAFAFA;
+}
+
+.code__wip {
+    margin: 0 auto;
+    font-size: 192px;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.p__wip {
+    font-size: 18px;
+    font-size: 300;
+}
