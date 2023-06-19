@@ -82,6 +82,8 @@ ul {
 
 nav li {
     height: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 nav img {
