@@ -1,0 +1,54 @@
+.navbar {
+    width: 100%;
+}
+
+nav {
+    max-width: 1440px;
+    height: 75px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f0c306;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px solid #24282C;
+    color: black;
+}
+
+h2 {
+    font-family: "Pokémon solid";
+    height: fit-content;
+    font-size: 32px;
+    margin: auto;
+    margin-top: -16px;    
+}
+
+ul {
+    width: 35%;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 75px;
+    background-color: #FAFAFA;
+    border-left: 4px solid #24282C;
+}
+
+nav li {
+    height: 100%;
+    margin: auto;
+}
+
+nav img {
+    max-height: 60px;
+    padding-top: 6px;
+    aspect-ratio: 1 / 1;
+    border-radius: 40px 0 0 40px;
+}
+
+nav a {
+    text-decoration: none;
+    height: 75px;
+}
+
+nav a:hover {
+    opacity: 0.65;
+}
