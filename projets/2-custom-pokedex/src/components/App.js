@@ -1,15 +1,14 @@
 import '../styles/App.css';
-import Header from './Header';
-import Pokedex from './Pokedex';
-import Footer from './Footer';
+import Home from './Home';
+import {Routes, Route} from "react-router-dom"
 
 function App() {
 
 	return (
 		<div className="App">
-			<Header />
-			<Pokedex />
-			<Footer />
+			<Routes>
+				<Route path="/" element={<Home />}/>
+			</Routes>
 		</div>
 	);
 }
