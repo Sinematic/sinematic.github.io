@@ -31,7 +31,9 @@ a {
 }
 
 .project__link {
+    display: block;
     font-size: 18px;
+    width: 250px;
 }
 
 article {
@@ -42,3 +44,10 @@ article {
 .special__message {
     text-decoration: underline;
 }
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
