@@ -6,15 +6,21 @@
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>
-		<url>
+	<url>
+		<loc>https://sinematic.github.io/projets/1-integration-responsive/</loc>
+		<lastmod>2023-07-12</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
 		<loc>https://sinematic.github.io/projets/2-contenu-dynamique/</loc>
-		<lastmod>2023-07-09</lastmod>
+		<lastmod>2023-07-12</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>1.0</priority>
 	</url>
 		<url>
 		<loc>https://sinematic.github.io/projets/3-custom-pokedex/build/</loc>
-		<lastmod>2023-07-09</lastmod>
+		<lastmod>2023-07-12</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>1.0</priority>
 	</url>
